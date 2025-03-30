@@ -29,3 +29,13 @@ def isPalindrome(self, s):          #You should ignore the self parameter if you
             else:
                 return False
         return True
+'''
+Complexities:
+Time Complexity: O(n)
+In the worst case, every character in the string may need to be checked once, 
+either by skipping over non-alphanumeric characters or by comparing two characters at a time. 
+This results in the loop running in O(n) time, where n is the length of the string.
+
+Space Complexity : O(1)
+No extra space used.
+'''
