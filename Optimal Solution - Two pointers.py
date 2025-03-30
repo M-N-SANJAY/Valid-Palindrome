@@ -15,7 +15,7 @@ Once both characters are alphanumeric, we convert both characters to lowercase a
 If both characters are equal to each other, then we can move on to the next set of characters by moving both pointers inwards. 
 If, at this point, they are not equal to each other, then that means that the string is not a palindrome, so we go into the else block and just return false immediately.
 '''
-def isPalindrome(self, s):
+def isPalindrome(self, s):          #You should ignore the self parameter if you do not refer to any class instances guys, remember that.
         left = 0
         right = len(s) - 1
         while left < right:
